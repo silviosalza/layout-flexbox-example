@@ -1,0 +1,29 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    display: flex;
+
+    /* DEBUG */
+    height: 700px;
+    background-color: lightgreen;
+}
+nav{
+    width: 200px;
+
+
+    /* DEBUG */
+    background-color: lightcoral;
+}
+main{
+    flex-grow: 1;
+
+
+    /* DEBUG */
+    background-color: lightyellow;
+}
