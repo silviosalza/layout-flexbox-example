@@ -20,6 +20,7 @@
 }
 nav{
     width: var(--sidebar-width);
+    padding: 20px 10px;
 
 
     /* DEBUG */
@@ -28,6 +29,7 @@ nav{
 main{
     /* flex-grow: 1; alternativa*/
     width: calc(100%- var(--sidebar-width));
+    padding: 20px;
 
 
     /* DEBUG */
