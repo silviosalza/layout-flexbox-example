@@ -10,19 +10,32 @@
     box-sizing: border-box;
 }
 
+/* HEADER */
+header{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.header-nav ul{
+    list-style: none;
+    display: flex;
+    gap: 15px;
 
+}
+/* MAIN */
 .container{
     display: flex;
 
     /* DEBUG */
-    height: 700px;
+    min-height: 600px;
     background-color: lightgreen;
 }
+
 nav{
     width: var(--sidebar-width);
     padding: 20px 10px;
-
-
     /* DEBUG */
     background-color: lightcoral;
 }
@@ -34,4 +47,14 @@ main{
 
     /* DEBUG */
     background-color: lightyellow;
+}
+
+/* FOOTER */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80px;
+    /* debug */
+    background-color: lightgreen;
 }
