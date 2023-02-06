@@ -1,3 +1,8 @@
+:root{
+    /* radice: serve per settare una regola alla radice del documento */
+   --sidebar-width: 200px;
+}
+
 /* RESET */
 *{
     margin: 0;
@@ -14,14 +19,15 @@
     background-color: lightgreen;
 }
 nav{
-    width: 200px;
+    width: var(--sidebar-width);
 
 
     /* DEBUG */
     background-color: lightcoral;
 }
 main{
-    flex-grow: 1;
+    /* flex-grow: 1; alternativa*/
+    width: calc(100%- var(--sidebar-width));
 
 
     /* DEBUG */
