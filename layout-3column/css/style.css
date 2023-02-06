@@ -3,3 +3,55 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* HEADER */
+
+header{
+
+    height: 100px;
+    /* debug */
+    background-color: lightyellow;
+}
+
+/* MAIN */
+
+main.flex{
+    gap: 20px;
+}
+li{
+    background-color: lightseagreen;
+    margin: 5px 150px 0 5px;
+    list-style: none;
+}
+.article{
+    background-color: lightgray;
+    margin: 5px 10px;
+}
+
+
+
+/* debug color */
+nav.menu {
+    background-color: lightblue;
+    width: 25%;
+}
+.main-section{
+    background-color: lightcoral;
+    width: 50%;
+}
+aside{
+    background-color: lightgreen;
+    width: 25%;
+}
+
+.flex{
+    display: flex;
+}
+
+
+/* FOOTER */
+
+footer{
+    background-color: lightsalmon;
+    height: 80px;
+}
